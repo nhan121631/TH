@@ -1,0 +1,31 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "blog ",
+  "keywords": [
+    "nodejs",
+    "blog"
+  ],
+  "homepage": "https://github.com/nhan121631/node_js#readme",
+  "bugs": {
+    "url": "https://github.com/nhan121631/node_js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhan121631/node_js.git"
+  },
+  "license": "ISC",
+  "author": "nhaan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

@@ -17,13 +17,14 @@
   "license": "ISC",
   "author": "nhaan",
   "type": "commonjs",
-  "main": "src/index.js",
+  "main": "src/server.js",
   "scripts": {
-    "start": "nodemon --inspect src/index.js",
+    "start": "nodemon --inspect src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "express-handlebars": "^8.0.4"
   },
   "devDependencies": {
     "morgan": "^1.10.1",
